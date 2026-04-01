@@ -3,6 +3,7 @@
             padding: 0;
             box-sizing: border-box;
             font-family: Arial, sans-serif;
+            background-color: white;
         }
 
         body {
@@ -10,11 +11,57 @@
             color: #333;
         }
 
+        header {
+            background-color: #2e7d32;
+            color: white;
+            padding: 20px 15px;
+            text-align: center;
+        }
+
+        .brand-wrap {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            margin-bottom: 13px;
+        }
+
+        .brand-wrap h1 {
+            font-size: 2rem;
+            margin: 0;
+            color:green;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 10px;
+            background-color: #2e7d32;
+        }
+
+        .but {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 999px;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.25s ease, transform 0.2s ease;
+        }
+
+        .but:hover {
+            background-color: #45a049;
+            transform: translateY(-1px);
+        }
+
         .about-section {
             padding: 60px 20px;
             text-align: center;
             background: linear-gradient(to right, #4CAF50, #2E7D32);
-            color: white;
+            color:#2E7D32;
         }
 
         .about-section h1 {
